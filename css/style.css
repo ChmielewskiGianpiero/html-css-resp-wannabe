@@ -129,18 +129,18 @@ img {
  ************************************************/
 
 
- @media screen and (max-width:768px) {
+ @media (max-width:768px) {
     .container{
         width: 768px;
         margin: 0 auto;
         padding: 0 20px;
     }
- }
-
- @media screen and (max-width:480px) {
-    .container{
-        width: 480px;
-        margin: 0 auto;
-        padding: 0 20px;
+    
+    .steps {
+        width: 768px;
     }
-}
+
+    header h1{
+        width: 768px;
+    }
+ }
