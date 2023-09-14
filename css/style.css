@@ -144,3 +144,18 @@ img {
         width: 768px;
     }
  }
+
+
+ @media (max-width:480px){
+
+    .lessons .col {
+        width: 50%;
+        padding-bottom: 100px;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+ }
